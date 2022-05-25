@@ -1,0 +1,17 @@
+{
+    "name": "chris/basic-tutorial-2",
+    "require": {
+        "illuminate/support": "^8.83"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app"
+        },
+        "files" : [
+            "app/functions.php"
+        ],
+        "classmap": [
+            "app/classes"
+        ]
+    }
+}
